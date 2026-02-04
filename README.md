@@ -18,7 +18,12 @@ A community-based web platform where people can request help or offer help.
 Community Help / Problem Solving
 
 ## ▶️ How to Run
-run these in your project folder
+run these commands in your project folder
+
+```bash
 pip install django
 python manage.py migrate
 python manage.py runserver
+```
+press Command + c or Ctrl + c in the terminal to stop the server
+Visit [https://localhost:8000/help_provider/](URL)

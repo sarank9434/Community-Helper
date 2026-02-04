@@ -5,7 +5,7 @@ from django.contrib.auth import login
 from .models import HelpPost, Category
 from django.contrib.auth.decorators import login_required
 def home(request):
-    posts = HelpPost.objects.select_related('user', 'user__profile').all().order_by('-created_at')
+    posts = HelpPost.objects.select_related('user', 'user__profile').exclude(status='closed').order_by('-created_at')
     
     return render(request, 'home.html', {'posts': posts})
 

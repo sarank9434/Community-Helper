@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-sslserver-v2 = "*"
+gtts = "*"
+edge-tts = "*"
+httpx = "*"
+django-location-field = "*"
+six = "*"
+django = "*"
+whitenoise = "*"
+requests = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

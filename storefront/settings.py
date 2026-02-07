@@ -37,8 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'playground',
-    'sarank',
     'help_provider',
     'location_field.apps.DefaultConfig',
 ]

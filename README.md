@@ -8,7 +8,7 @@
 ---
 
 ## 📄 Abstract
-In times of local emergencies or daily community needs, information is often scattered across social media or lost in group chats. **Community Help Provider** is a centralized web platform that connects people who *need* help with those who can *offer* it. By using real-time location tagging and categorized posting, the system ensures that help reaches the right person in the right location at the right time.
+Social media is effective for entertaining content and informal communications but it is not a good platform for requesting or offering simple helps. In times of local emergencies or daily community needs, information is often scattered across social media or lost in group chats. **Community Help Provider** is a centralized web platform that connects people who *need* help with those who can *offer* it. By using real-time location tagging and categorized posting, the system ensures that help reaches the right person in the right location at the right time.
 
 ## ❓ Problem Statement
 When a crisis occurs (like a medical emergency) or when a citizen wants to volunteer, there is no dedicated platform to match needs with resources locally. 
@@ -25,7 +25,7 @@ Our system automates the community aid workflow:
 1. **Creation:** Users post "Need" or "Offer" with descriptions.
 2. **Categorization:** Needs are sorted into Medical, Education, Food, etc.
 3. **Geolocation:** Precise coordinates via `PlainLocationField`.
-4. **Automation:** Django Signals automatically manage user profiles.
+4. **Automation:** Django Signals automatically manage user profiles. Contact, Location and User's name is automatically taken from user's profile insted of asking in each post creation.
 5. **Efficiency:** A live feed that automatically hides "Closed" posts.
 
 ## 🎯 Objectives
@@ -68,9 +68,9 @@ Based on our development and testing:
 
 ## 🚀 Future Improvements
 * **Real-time Notifications:** SMS alerts to nearby volunteers when an "Emergency" post is created.
-* **In-app Chat:** Secure messaging between helpers and seekers.
-* **Mobile App:** Dedicated Android/iOS application for better field usage.
+* **Mobile App:** Dedicated progressive web apps (PWA) for better field usage. 
 * **Offline Mode:** Local syncing for areas with poor connectivity.
+* **Moderator Users:** Allows moderators, government departments or organizatios to observe real time posts.
 
 ## 🏁 Conclusion
 The Community Help Provider bridges the gap between traditional mutual aid and modern technology. By digitizing the act of helping, we allow citizens to focus more on the support itself and less on the search for where to provide it.

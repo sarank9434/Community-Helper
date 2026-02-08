@@ -17,8 +17,7 @@ When a crisis occurs (like a medical emergency) or when a citizen wants to volun
 * **Location:** Difficult to pinpoint exactly where help is required in a city like Kathmandu.
 
 ## 🏗️ Existing System
-* **Method:** Manual phone calls, word-of-mouth, or unorganized social media posts.
-* **Flaws:** High time consumption, posts get buried quickly, no status tracking (knowing if a need is already met), and zero data integrity.
+Our system allows user for create posts that are classified as request post or offer post. Users can quickly get the email or the phone number of the post creator. We have implemented authentication in our platform. Each user has his/her user profile which consists of information such as email, contact, first name, last name, location, etc. The user can only create a post if he or she is logged in. the home page is scrollable and contains diffent cards and each card is for a diffrent post. The feed or the home page displays all the posts sorted by its creation date. The user can log in or sign up to a new account. A user can also delete his or her own post.
 
 ## 💡 Proposed Solution
 Our system automates the community aid workflow:

@@ -1,0 +1,21 @@
+{
+    "name": "Community Help Provider",
+    "short_name": "HelpProvider",
+    "start_url": "/help_provider/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "Connect with people who need or offer help in your community.",
+    "icons": [
+        {
+            "src": "/static/images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "88b8c47efe28d0e484a6c71b16cd827a57535424463165d77073dc0055a1ce8c"
+            "sha256": "349b8c2631da6f6b67c86feba4a2d098b25a345c5c8833e0563de8642ee53c5e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -168,11 +168,11 @@
         },
         "asgiref": {
             "hashes": [
-                "sha256:13acff32519542a1736223fb79a715acdebe24286d98e8b164a73085f40da2c4",
-                "sha256:1db9021efadb0d9512ce8ffaf72fcef601c7b73a8807a1bb2ef143dc6b14846d"
+                "sha256:5f184dc43b7e763efe848065441eac62229c9f7b0475f41f80e207a114eda4ce",
+                "sha256:e8667a091e69529631969fd45dc268fa79b99c92c5fcdda727757e52146ec133"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==3.11.0"
+            "version": "==3.11.1"
         },
         "attrs": {
             "hashes": [
@@ -327,12 +327,12 @@
         },
         "django": {
             "hashes": [
-                "sha256:a92a4ff14f664a896f9849009cb8afaca7abe0d6fc53325f3d1895a15253433d",
-                "sha256:ed76a7af4da21551573b3d9dfc1f53e20dd2e6c7d70a3adc93eedb6338130a5f"
+                "sha256:3046a53b0e40d4b676c3b774c73411d7184ae2745fe8ce5e45c0f33d3ddb71a7",
+                "sha256:610dd3b13d15ec3f1e1d257caedd751db8033c5ad8ea0e2d1219a8acf446ecc6"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.12'",
-            "version": "==6.0.1"
+            "version": "==6.0.2"
         },
         "django-location-field": {
             "hashes": [
@@ -340,6 +340,15 @@
             ],
             "index": "pypi",
             "version": "==2.7.3"
+        },
+        "django-pwa": {
+            "hashes": [
+                "sha256:41dc931c645c6125c556bd753205ca051aa48e5d46edbf281003594f3d76d4a3",
+                "sha256:5539fabb41fe189cc2a82cb1f0f889b45671a8144d7b5bb5206a9ddd0fddb3c2"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==2.0.1"
         },
         "django-sslserver-v2": {
             "hashes": [

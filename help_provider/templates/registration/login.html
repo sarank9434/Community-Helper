@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+{% load static %}
 
 <head>
     <meta charset="utf-8">
@@ -7,6 +8,17 @@
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="manifest" href="{% static 'manifest.json' %}?v=2">
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/serviceworker.js')
+                    .then(reg => console.log('Service Worker Registered!', reg))
+                    .catch(err => console.log('Service Worker registration failed', err));
+            });
+        }
+    </script>
 </head>
 
 <body>

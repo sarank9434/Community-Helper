@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'help_provider',
     'location_field.apps.DefaultConfig',
+    'pwa',
 ]
 LOCATION_FIELD = {
     'map.provider': 'openstreetmap',

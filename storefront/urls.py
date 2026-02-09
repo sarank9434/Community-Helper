@@ -28,6 +28,11 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('signup/', views.signup, name='signup'),
     path('help_provider/', include('help_provider.urls')),
+    path('serviceworker.js', TemplateView.as_view(
+        template_name="serviceworker.js", 
+        content_type='application/javascript'
+    ), name='serviceworker'),
+    path('', include('pwa.urls')),
 ]
 
 # Serve static files during development

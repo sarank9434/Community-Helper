@@ -11,6 +11,10 @@ def home(request):
     .order_by('-created_at')
     
     return render(request, 'home.html', {'posts': posts})
+def my_posts(request):
+    user_posts = HelpPost.objects.filter(user=request.user).order_by('-created_at')
+    
+    return render(request, 'my_posts.html', {'posts': user_posts})
 
 @login_required
 def delete_post(request, post_id):
@@ -18,6 +22,13 @@ def delete_post(request, post_id):
     if request.method == 'POST':
         post.delete()
     return redirect('home')
+
+def post_selection(request):
+    return render(request, 'post_selection.html')
+
+def profile(request):
+
+    return render(request, 'profile.html',)
 
 @login_required
 def create_post(request, help_type):

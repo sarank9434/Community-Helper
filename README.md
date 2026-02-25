@@ -38,7 +38,7 @@ Our system automates the community aid workflow:
 | :--- | :--- |
 | **Frontend** | HTML5, CSS3, JavaScript, Bootstrap 5 |
 | **Backend** | Python 3.13, Django 6.0.1 |
-| **Database** | SQLite3 (Relational) |
+| **Database** | MySQL |0
 | **Maps** | Leaflet / OpenStreetMap via `django-location-field` |
 | **Architecture** | MVT (Model-View-Template) |
 

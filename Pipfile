@@ -15,6 +15,8 @@ whitenoise = "*"
 requests = "*"
 python-dotenv = "*"
 django-pwa = "*"
+mysqlclient = "*"
+pymysql = "*"
 
 [dev-packages]
 
